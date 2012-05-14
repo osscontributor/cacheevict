@@ -51,6 +51,7 @@ grails.project.dependency.resolution = {
 
         runtime ":database-migration:1.1"
         
-        compile ':cache:1.0.0.M2'
+        compile ':cache-ehcache:1.0.0.M2'
+        compile ":functional-test:2.0.M2"
     }
 }
